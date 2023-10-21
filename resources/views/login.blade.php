@@ -2,9 +2,9 @@
     @section('content')
         <main id="main" class="container">
             <div class="d-flex align-items-center justify-content-center vh-100">
-                <div class="rounded bg-light shadow p-4">
+                <div class="rounded bg-light shadow p-4 w-50">
                     <h1 class="text-center">Iniciar sesión</h1>
-                    <form class="row g-4" action="login" method="post">
+                    <form class="row g-3 my-3" action="login" method="post">
                         @csrf
                         <div>
                             <label for="email" class="form-label">Correo electrónico</label>
@@ -17,10 +17,10 @@
                             <p class="small text-danger">{{ $errors->first('password') }}</p>
                         </div>
                         <div class="col-12 d-flex justify-content-center">
-                            <button type="submit" class="btn btn-info w-50">Iniciar sesión</button>
+                            <button type="submit" class="btn btn-primary w-50">Iniciar sesión</button>
                         </div>
                     </form>
-                    <p class="text center my-2">¿No tenés cuenta?<a href="{{ url('/signup') }}">Registrate acá</a></p>
+                    <p class="text-center my-2 small">¿No tenés cuenta? <a href="{{ url('/signup') }}">Registrate acá</a></p>
                 </div>
             </div>  
         </main>
