@@ -22,7 +22,6 @@ Route::get('/login', function () {
 });
 
 Route::post('/login', function (Request $request){    
-    return redirect('profile');
     // $user = User::where('email', $request->input('email'))->first();
     // if ($user){
     //     if (Hash::check($request->password, $user->password)) {
@@ -40,6 +39,7 @@ Route::post('/login', function (Request $request){
     // } else {
     //     return view('login');
     // }    
+    return redirect('profile');
 });
 
 Route::get('/profile', function () {
