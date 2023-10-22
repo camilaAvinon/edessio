@@ -10,7 +10,9 @@
                     <h3>Correo electrónico</h3>
                     <p>profesor@mail.com</p>
                     <h3>Próximas clases</h3>
-                    <p>Ver como se mostrarian</p>
+                    <a href="" class="btn btn-outline-primary">Clase 1</a>
+                    <a href="" class="btn btn-outline-primary">Clase 2</a>
+                    <a href="" class="btn btn-outline-primary">Clase 3</a>
                     <h3>Clases activas</h3>
                     <p>Ver como se mostrarian</p>
                 </div>
