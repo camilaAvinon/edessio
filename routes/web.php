@@ -46,6 +46,10 @@ Route::get('/profile', function () {
     return view ('profile');
 });
 
+Route::get('/profile-teacher', function () {
+    return view ('profileTeacher');
+});
+
 Route::get('/signup', function () {
     return view('signup');
 });

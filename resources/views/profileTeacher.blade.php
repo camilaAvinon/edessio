@@ -5,13 +5,13 @@
             <div class="w-100">
                 <h1>Mi perfil</h1>
                 <div class="clearfix">
-                    <img src="{{ asset('img/studentProfilePicture.svg') }}" class="col-md-3 float-md-end " alt="...">
+                    <img src="{{ asset('img/teacherProfilePicture.svg') }}" class="col-md-3 float-md-end " alt="...">
                     <h2>Información de la cuenta</h2>
                     <h3>Correo electrónico</h3>
-                    <p>alumno@mail.com</p>
+                    <p>profesor@mail.com</p>
                     <h3>Próximas clases</h3>
                     <p>Ver como se mostrarian</p>
-                    <h3>Últimas clases</h3>
+                    <h3>Clases activas</h3>
                     <p>Ver como se mostrarian</p>
                 </div>
             </div>
