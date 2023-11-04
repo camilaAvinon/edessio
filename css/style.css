@@ -20,15 +20,15 @@
 main{
     min-height: 100vh;
     min-width: 100vw;
+    background-color: #06283F;
 }
 
-main.login{
-    background-color: #06283F;
+div.login{
     color: #ffff;
     font-family: 'Geometric 212';
 }
 
-main.login input{
+div.login input{
     background-color:transparent;
     border: #06283F;
     border-bottom: 2px solid #C3EAFF;
@@ -36,7 +36,7 @@ main.login input{
     outline: none;
 }
 
-main.login input:focus{
+div.login input:focus{
     border: 2px solid #C3EAFF;
     /* border: #06283F; */
     /* border-radius: 5%; */
@@ -44,7 +44,7 @@ main.login input:focus{
     transition: all 0.8s;
 }
 
-main.login h2{
+div.login h2{
     border-bottom: 2px solid #3AB3E7;
 }
 
@@ -72,10 +72,10 @@ form .btn.secondary:hover{
     transition: all 0.5s;
 }
 
-main.login h3, main.login p{
+div.login h3, div.login p{
     color: #06283F;
 }
 
-main.login img{
+div.login img{
     max-width: 30%;
 }

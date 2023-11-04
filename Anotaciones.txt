@@ -1,0 +1,62 @@
+---
+• Login
+Acomodar los botones ára que tengan el mismo ancho.
+
+• Signup
+• Mi cuenta/Mi perfil
+• Terminar wireframes
+• Armar un prototipo de las cosas que no llegamos a hacer para el lunes
+• Ver si funciona el back
+• Ver cómo conectar el front con el back
+---
+
+User -- HECHO falta eliminar y crear profesor segun el rol que reciba
+	crear
+	modificar
+	eliminar (o hacemos desactivar la cuenta para no perder info?)
+	llamar por id ?
+	llamar a todos (admin)
+
+Profesor -- EN PROCESO falta el call por materia
+	crear
+	modificar
+	eliminar o desactivar (esto se hace si se elimina el User porque sino queda colgado en la bdd)
+	llamar por id
+	llamar a todos
+	llamar por materia
+
+Modalidad (ya tienen un valor por defecto, no van a haber nuevas ni van a cambiar) -- HECHO
+	llamar por id
+	llamar todas
+
+Rol (lo mismo que modalidad) -- HECHO
+	llamar por id
+	llamar todos ?
+
+Materia -- HECHO
+	crear (por si no existe la que quiere seleccionar, igual habria que hacer alguna validacion porque sino van a cargar cualquier cosa en la bdd)
+	llamar por id
+	llamar todas
+
+Clase -- HECHO faltan los call de fecha, materia y profesor
+	crear
+	modificar
+	eliminar o desactivar
+	llamar por id
+	llamar por profesor 
+	lamar por materia
+	llamar por fecha ? (no tengo ni idea de como hariamos los filtros, si con las rutas o en el codigo directamente)
+	llamar todas ?
+
+Reseña -- HECHO faltan el call de profesor y alumno
+	crear
+	modificar ?
+	eliminar ?
+	llamar por id
+	llamar por profesor
+	llamar por alumno ?
+	
+	
+
+
+
