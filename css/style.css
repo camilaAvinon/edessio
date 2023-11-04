@@ -1,0 +1,76 @@
+@font-face {
+    font-family: 'Geometric 415';
+    src: url('../assets/fonts/geometric\ 415\ black\ bt.ttf') format('truetype');
+    font-style: normal;
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: 'Geometric 212';
+    src: url('../assets/fonts/geometric\ 212\ book\ condensed\ bt.ttf') format('truetype');
+    font-style: normal;
+    font-weight: normal;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+main{
+    min-height: 100vh;
+    min-width: 100vw;
+}
+
+main.login{
+    background-color: #06283F;
+    color: #ffff;
+    font-family: 'Geometric 212';
+}
+
+main.login input{
+    background-color:transparent;
+    border: #06283F;
+    border-bottom: 2px solid #C3EAFF;
+    border-radius:0;
+    outline: none;
+}
+
+main.login input:focus{
+    border: 2px solid #C3EAFF;
+    /* border: #06283F; */
+    /* border-radius: 5%; */
+    outline: none;
+    transition: all 0.8s;
+}
+
+main.login h2{
+    border-bottom: 2px solid #3AB3E7;
+}
+
+form .btn.primary{
+    border: 2px solid #3AB3E7;
+    background-color: #3AB3E7;
+    color: #06283F;
+}
+
+form .btn.primary:hover{
+    border: 2px solid #3AB3E7;
+    background-color: transparent;
+    color: #3AB3E7;
+    transition: all 0.5s;
+}
+
+form .btn.secondary{
+    background-color: none;
+    color: #ffff;
+    border: 2px solid #3AB3E7;
+}
+
+main.login h3, main.login p{
+    color: #06283F;
+}
+
+main.login img{
+    max-width: 30%;
+}
