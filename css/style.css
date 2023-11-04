@@ -67,6 +67,11 @@ form .btn.secondary{
     border: 2px solid #3AB3E7;
 }
 
+form .btn.secondary:hover{
+    opacity: 50%;
+    transition: all 0.5s;
+}
+
 main.login h3, main.login p{
     color: #06283F;
 }
