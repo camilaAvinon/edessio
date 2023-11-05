@@ -86,10 +86,10 @@ div.login img{
 }
 
 .display-none{
-    display:none;
+    display: none;
 }
 
-input[type="checkbox"] {
+/* input[type="checkbox"] {
     &.toggle {
         opacity: 0;
         position: absolute;
@@ -164,4 +164,4 @@ input[type="checkbox"] {
 
   option{
     color: #06283F;
-  }
+  } */
