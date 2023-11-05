@@ -53,7 +53,7 @@
                             <div class="col-md-6">      
                                 <label for="floatingSelect">Provincia</label>
                                 <select class="form-select">
-                                    <option selected>Open this select menu</option>
+                                    <option selected></option>
                                     <option value="1">Caba</option>
                                     <option value="2">Gran Buenos Aires</option>
                                     <option value="3">Córdoba</option>
@@ -62,18 +62,49 @@
                             <div class="col-md-6">
                                 <label for="floatingSelect">Localidad</label>
                                 <select class="form-select">
-                                    <option selected>Open this select menu</option>
-                                    <option value="1">Caba</option>
-                                    <option value="2">Gran Buenos Aires</option>
-                                    <option value="3">Córdoba</option>
+                                    <option selected></option>
+                                    <option value="1">Palermo</option>
+                                    <option value="2">Belgrano</option>
+                                    <option value="3">Núñez</option>
                                 </select>
+                            </div>
+                        </div>
+                        <div class="teacher-form display-none">
+                            <div class="row justify-content-center m-1 my-3 row-gap-2">
+                                <div class="col-md-6">      
+                                    <label for="floatingSelect">Materia/s</label>
+                                    <select class="form-select">
+                                        <option selected></option>
+                                        <option value="1">Matemática</option>
+                                        <option value="2">Inglés</option>
+                                        <option value="3">Química</option>
+                                    </select>
+                                </div>
+                                <div class="col-md-6">
+                                    <label for="floatingSelect">Modalidad</label>
+                                    <select class="form-select">
+                                        <option selected></option>
+                                        <option value="1">Virtual</option>
+                                        <option value="2">Presencial</option>
+                                    </select>
+                                </div>
+                                <div class="col-12">
+                                    <label for="floatingSelect">Nivel académico</label>
+                                    <select class="form-select">
+                                        <option selected></option>
+                                        <option value="1">Profesorado</option>
+                                        <option value="2">Estudiante avanzado</option>
+                                        <option value="3">No se que mas</option>
+                                    </select>
+                                </div>
                             </div>
                         </div>
                         <div class="col-12">
                             <input type="checkbox" class="toggle" id="toggle" />
                             <label for="toggle">
-                                <span class="on">Alumno</span>
-                                <span class="off">Profesor</span>
+                                AAA
+                                <!-- <span class="on">Alumno</span>
+                                <span class="off">Profesor</span> -->
                             </label>
                         </div>                                        
                         <div class="col-12 row row-gap-2 text-center justify-content-center">
@@ -107,7 +138,13 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
     <script type="module">
         // Cambiando el boton de alumno a profesor
-        
+        let checkbox = document.getElementById('toggle');
+        let teacherForm = document.getElementById('teacher-form');
+        console.log(checkbox);
+
+        checkbox.addEventListener('change', () => {
+            teacherForm.classList.toggle('display-none');
+        });
 
         // Mostrando campos del profesor → ver si lo puedo hacer dentro de moveTeacher()
 
