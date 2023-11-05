@@ -44,6 +44,11 @@ div.login input:focus{
     transition: all 0.8s;
 }
 
+div.login select, div.login label{
+    background-color: transparent;
+    color: #ffff;
+}
+
 div.login h2{
     border-bottom: 2px solid #3AB3E7;
 }
@@ -78,4 +83,29 @@ div.login h3, div.login p{
 
 div.login img{
     max-width: 30%;
+}
+
+.button-box {
+    width: 75%;
+    margin: 35px auto;
+    position: relative;
+    box-shadow: 0 0 20px 9px #1a52691a;
+    border-radius: 10%;
+    border: 2px solid #C3EAFF;
+}
+
+#btn {
+    top: 0;
+    left: 0;
+    position: absolute;
+    width: 50%;
+    height: 100%;
+    color: #C3EAFF;
+    background-color: #3AB3E7;
+    border-radius: 30px;
+    transition: 0.5s;
+}
+
+#btn button {
+    color: #C3EAFF
 }
