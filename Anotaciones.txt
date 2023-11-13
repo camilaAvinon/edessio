@@ -1,11 +1,10 @@
 ---
 • Login
-Acomodar los botones ára que tengan el mismo ancho.
+Acomodar los botones para que tengan el mismo ancho.
 
 • Signup
 • Mi cuenta/Mi perfil
 • Terminar wireframes
-• Armar un prototipo de las cosas que no llegamos a hacer para el lunes
 • Ver si funciona el back
 • Ver cómo conectar el front con el back
 ---
@@ -55,8 +54,3 @@ Reseña -- HECHO faltan el call de profesor y alumno
 	llamar por id
 	llamar por profesor
 	llamar por alumno ?
-	
-	
-
-
-
